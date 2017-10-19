@@ -63,62 +63,121 @@ Google analytics is a work in progress
 # Test coverage and eslint
 
 
+
+
   Data Store
+
     has property
+
       ✓ Instance
+
       ✓ get
+
       ✓ set
+
     Instance
+
       has property
+
         ✓ get
+
         ✓ set
+
       stores
+
         ✓ an object
+
         ✓ an arrow function
+
         ✓ a function
+
         ✓ a string
+
         ✓ an integer
+
         ✓ a boolean
+
     global store
+
       has property
+
         ✓ get
+
         ✓ set
+
       stores
+
         ✓ an object
+
         ✓ an arrow function
+
         ✓ a function
+
         ✓ a string
+
         ✓ an integer
+
         ✓ a boolean
+
+
 
   Google Analytics
+
     has a global instance
+
       ✓ that has the setOption property
+
       ✓ that has the setAction property
+
       ✓ that has the getOptions property
+
       ✓ that has the getActions property
+
       and add a new
+
         ✓ option
+
         ✓ action
+
     can create a local instance
+
       ✓ that has the setOption property
+
       ✓ that has the setAction property
+
       ✓ that has the getOptions property
+
       ✓ that has the getActions property
+
       and add a new
+
         ✓ option
+
         ✓ action
 
 
-  31 passing (11ms)
+
+
+
+  31 passing (12ms)
+
 
 ---------------------|----------|----------|----------|----------|----------------|
+
 File                 |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
 ---------------------|----------|----------|----------|----------|----------------|
+
 All files            |    88.37 |       75 |    81.82 |    88.37 |                |
+
  ZHelper             |      100 |      100 |      100 |      100 |                |
+
   main.js            |      100 |      100 |      100 |      100 |                |
+
  ZHelper/src         |     88.1 |       75 |    81.82 |     88.1 |                |
+
   dataStore.js       |      100 |       50 |      100 |      100 |              7 |
+
   googleAnalytics.js |    84.38 |       80 |       75 |    84.38 | 29,35,40,41,43 |
+
 ---------------------|----------|----------|----------|----------|----------------|
+
