@@ -1,18 +1,7 @@
 'use strict'
-const globalDataStore = {}
+const globalDataStore = new Instance()
 
-module.exports.set = function(key, value) {
-  globalDataStore[key] = value
-}
-
-module.exports.get = function(key) {
-  if (globalDataStore.hasOwnProperty(key)) {
-    return globalDataStore[key]
-  }
-  return null
-}
-
-module.exports.Instance = function() {
+function Instance() {
   const dataStore = {}
   this.get = function(key) {
     return dataStore[key] === undefined ? null : dataStore[key]
@@ -23,3 +12,9 @@ module.exports.Instance = function() {
     return this
   }
 }
+
+module.exports.set = globalDataStore.set
+
+module.exports.get = globalDataStore.get
+
+module.exports.Instance = Instance
