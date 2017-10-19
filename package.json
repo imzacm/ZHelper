@@ -1,10 +1,13 @@
 {
   "name": "z-helper",
   "version": "1.0.0",
-  "description": "",
+  "description": "A collection of libraries that I use in a lot of projects, feel free to modify them for your use.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "postcommit": "npm version bump && npm publish"
   },
   "author": "Zac McChesney",
   "license": "MIT",
@@ -12,5 +15,24 @@
     "chai": "^4.1.2",
     "mocha": "^4.0.1",
     "nyc": "^11.2.1"
-  }
+  },
+  "devDependencies": {
+    "husky": "^0.14.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imzacm/ZHelper.git"
+  },
+  "keywords": [
+    "DataStore",
+    "google",
+    "analytics"
+  ],
+  "bugs": {
+    "url": "https://github.com/imzacm/ZHelper/issues"
+  },
+  "homepage": "https://github.com/imzacm/ZHelper#readme"
 }
