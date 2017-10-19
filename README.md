@@ -1,8 +1,8 @@
 # ZHelper
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/imzacm/ZHelper.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/imzacm/ZHelper.svg?branch=master)](https://travis-ci.org/imzacm/ZHelper)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/abffabe2539a4cb28428f98fae38ea2f)](https://www.codacy.com/app/imzacm/ZHelper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=imzacm/ZHelper&amp;utm_campaign=Badge_Grade)
+[![Greenkeeper badge](https://badges.greenkeeper.io/imzacm/ZHelper.svg)](https://greenkeeper.io/)
+
 A collection of libraries that I use in a lot of projects, feel free to modify them for your use.
 
 I realised that in a lot of projects I do, there are a few things that I almost always write from scratch, that's why I decided to create this.
@@ -114,7 +114,7 @@ Google analytics is a work in progress
         ✓ action
 
 
-  31 passing (11ms)
+  31 passing (12ms)
 
 ---------------------|----------|----------|----------|----------|----------------|
 File                 |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
