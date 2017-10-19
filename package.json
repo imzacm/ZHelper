@@ -4,10 +4,10 @@
   "description": "A collection of libraries that I use in a lot of projects, feel free to modify them for your use.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node_modules/.bin/mocha test",
     "precommit": "npm test",
     "prepush": "npm test",
-    "postcommit": "npm version bump && npm publish"
+    "postcommit": "#npm version bump && npm publish"
   },
   "author": "Zac McChesney",
   "license": "MIT",
