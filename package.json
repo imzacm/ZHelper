@@ -1,6 +1,6 @@
 {
   "name": "z-helper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A collection of libraries that I use in a lot of projects, feel free to modify them for your use.",
   "main": "main.js",
   "scripts": {

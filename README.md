@@ -162,6 +162,7 @@ Google analytics is a work in progress
   31 passing (12ms)
 
 
+
 ---------------------|----------|----------|----------|----------|----------------|
 
 File                 |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
