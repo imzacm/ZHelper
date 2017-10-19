@@ -79,39 +79,39 @@ function Instance(opts) {
     return optionsObj
   }
 
-  this.send = function (action, ...args) {
+  // this.send = function (action, ...args) {
+  //
+  // }
 
-  }
-
-  function sendReq (data, args) {
-    return new Promise((resolve, reject) => {
-      let sender = require('https'),
-        reqOpts = options.httpsOpts
-      if (optionsObj.protocol === 'http') {
-        sender = require('http')
-        reqOpts = options.httpOpts
-      }
-
-      if(args.option !== undefined && optionsObj.hasOwnProperty(args.option)) {
-        reqOpts = args.options
-      }
-
-      let req = sender.request(reqOpts, (res) => {
-        let response = ''
-
-        res.on('data', (chunk) => {
-          response += chunk
-        })
-
-        res.on('end', () => {
-          resolve(response)
-        })
-      })
-
-      req.write(querystring.stringify(data))
-      req.end()
-    })
-  }
+  // function sendReq (data, args) {
+  //   return new Promise((resolve, /*reject*/) => {
+  //     let sender = require('https'),
+  //       reqOpts = options.httpsOpts
+  //     if (optionsObj.protocol === 'http') {
+  //       sender = require('http')
+  //       reqOpts = options.httpOpts
+  //     }
+  //
+  //     if(args.option !== undefined && optionsObj.hasOwnProperty(args.option)) {
+  //       reqOpts = args.options
+  //     }
+  //
+  //     let req = sender.request(reqOpts, (res) => {
+  //       let response = ''
+  //
+  //       res.on('data', (chunk) => {
+  //         response += chunk
+  //       })
+  //
+  //       res.on('end', () => {
+  //         resolve(response)
+  //       })
+  //     })
+  //
+  //     req.write(querystring.stringify(data))
+  //     req.end()
+  //   })
+  // }
 }
 
 const globalInstance = new Instance()
