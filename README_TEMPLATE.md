@@ -61,11 +61,4 @@ The get function returns whatever was stored under the key given to it, if that 
 Google analytics is a work in progress
 
 # Test coverage and eslint
-
-/home/zac/Code/Projects/ZHelper/src/googleAnalytics.js
-  82:36  error  'args' is defined but never used     no-unused-vars
-  86:12  error  'sendReq' is defined but never used  no-unused-vars
-  87:34  error  'reject' is defined but never used   no-unused-vars
-
-✖ 3 problems (3 errors, 0 warnings)
-
+{TEST_COVERAGE}
