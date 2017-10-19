@@ -61,9 +61,3 @@ The get function returns whatever was stored under the key given to it, if that 
 Google analytics is a work in progress
 
 # Test coverage and eslint
-
-/home/zac/Code/Projects/ZHelper/src/googleAnalytics.js
-  3:7  error  'querystring' is assigned a value but never used  no-unused-vars
-
-✖ 1 problem (1 error, 0 warnings)
-

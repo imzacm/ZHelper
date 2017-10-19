@@ -32,8 +32,8 @@
       <file leaf-file-name="googleAnalytics.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/googleAnalytics.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="85" column="2" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="113" selection-end-column="6" />
+            <state relative-caret-position="29">
+              <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -43,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1304">
+              <first_editor relative-caret-position="-1246">
                 <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -57,8 +57,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="58">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -256,7 +256,7 @@
       <workItem from="1508415379019" duration="16320000" />
       <workItem from="1508441336979" duration="281000" />
       <workItem from="1508441644790" duration="366000" />
-      <workItem from="1508442025604" duration="3790000" />
+      <workItem from="1508442025604" duration="3909000" />
     </task>
     <task id="LOCAL-00001" summary="Data store and started google analytics">
       <created>1508441513876</created>
@@ -301,7 +301,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25353000" />
+    <option name="totallyTimeSpent" value="25472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2736" height="1748" extended-state="6" />
@@ -537,8 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="58">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -546,7 +546,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1304">
+          <first_editor relative-caret-position="-1246">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
@@ -558,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/googleAnalytics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="85" column="2" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="113" selection-end-column="6" />
+        <state relative-caret-position="29">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding />
         </state>
       </provider>

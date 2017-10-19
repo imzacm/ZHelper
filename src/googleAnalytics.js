@@ -1,6 +1,6 @@
 'use strict'
 
-const querystring = require('querystring')
+//const querystring = require('querystring')
 
 const options = {
   protocol: 'https',
