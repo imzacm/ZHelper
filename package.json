@@ -1,12 +1,12 @@
 {
   "name": "z-helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A collection of libraries that I use in a lot of projects, feel free to modify them for your use.",
   "main": "main.js",
   "scripts": {
     "test": "node_modules/.bin/mocha test",
     "testCoverage": "node_modules/.bin/nyc npm test",
-    "precommit": "npm run testCoverage && node_modules/.bin/eslint main.js src test | node gen-readme.js && git add README.md",
+    "precommit": "node_modules/.bin/eslint main.js src test && npm run testCoverage | node gen-readme.js && git add README.md",
     "prepush": "npm publish"
   },
   "author": "Zac McChesney",

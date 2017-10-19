@@ -57,8 +57,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="232">
+              <caret line="8" column="83" lean-forward="false" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -256,7 +256,7 @@
       <workItem from="1508415379019" duration="16320000" />
       <workItem from="1508441336979" duration="281000" />
       <workItem from="1508441644790" duration="366000" />
-      <workItem from="1508442025604" duration="3920000" />
+      <workItem from="1508442025604" duration="4039000" />
     </task>
     <task id="LOCAL-00001" summary="Data store and started google analytics">
       <created>1508441513876</created>
@@ -301,7 +301,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25483000" />
+    <option name="totallyTimeSpent" value="25602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2736" height="1748" extended-state="6" />
@@ -558,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="232">
+          <caret line="8" column="83" lean-forward="false" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
           <folding />
         </state>
       </provider>
