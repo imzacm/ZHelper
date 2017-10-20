@@ -117,7 +117,7 @@ Google analytics is a work in progress
       - an event
 
 
-  31 passing (19ms)
+  31 passing (12ms)
   2 pending
 
 ---------------------|----------|----------|----------|----------|----------------|
