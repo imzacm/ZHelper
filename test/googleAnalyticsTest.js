@@ -80,4 +80,32 @@ describe('Google Analytics', () => {
       })
     })
   })
+
+  xdescribe('sends', () => {
+    let gaLocalInst
+
+    beforeEach(() => {
+      gaLocalInst = new ga()
+      gaLocalInst.setTrackingCode('UA-70655826-2')
+      gaLocalInst.newCid()
+    })
+
+    it('a screenview', () => {
+      return gaLocalInst.send('screenview', 'test screen', 'debug')
+        .then((response) => {
+          response = JSON.parse(response)
+          expect(response.hitParsingResult[0]).to.have.property('valid')
+          expect(response.hitParsingResult[0].valid).to.equal(true)
+        })
+    })
+
+    it('an event', () => {
+      return gaLocalInst.send('event', 'test event', 'test action', 'test label', 'debug')
+        .then((response) => {
+          response = JSON.parse(response)
+          expect(response.hitParsingResult[0]).to.have.property('valid')
+          expect(response.hitParsingResult[0].valid).to.equal(true)
+        })
+    })
+  })
 })

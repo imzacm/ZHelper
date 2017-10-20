@@ -112,17 +112,21 @@ Google analytics is a work in progress
       and add a new
         ✓ option
         ✓ action
+    sends
+      - a screenview
+      - an event
 
 
-  31 passing (12ms)
+  31 passing (19ms)
+  2 pending
 
 ---------------------|----------|----------|----------|----------|----------------|
 File                 |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
 ---------------------|----------|----------|----------|----------|----------------|
-All files            |    88.37 |       75 |    81.82 |    88.37 |                |
+All files            |    52.27 |    40.91 |     37.5 |    52.27 |                |
  ZHelper             |      100 |      100 |      100 |      100 |                |
   main.js            |      100 |      100 |      100 |      100 |                |
- ZHelper/src         |     88.1 |       75 |    81.82 |     88.1 |                |
+ ZHelper/src         |    51.72 |    40.91 |     37.5 |    51.72 |                |
   dataStore.js       |      100 |       50 |      100 |      100 |              7 |
-  googleAnalytics.js |    84.38 |       80 |       75 |    84.38 | 29,35,40,41,43 |
+  googleAnalytics.js |    45.45 |       40 |    28.57 |    45.45 |... 164,166,167 |
 ---------------------|----------|----------|----------|----------|----------------|
