@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "eslint": "^4.9.0",
-    "husky": "^0.14.3"
+    "husky": "^2.4.0"
   },
   "directories": {
     "test": "test"
